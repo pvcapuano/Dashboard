@@ -64,7 +64,19 @@ function App() {
       vAxis: { title: 'Mês' },
       animation: { duration: 1000, easing: 'out', startup: true }
     }}
+    />
 
+    <Chart 
+    width={'400px'}
+    height={'300px'}
+    chartType={'LineChart'}
+    data={dados}
+    options={{
+      title: TITULO,
+      hAxis: { title: 'Mês'},
+      vAxis: { title: 'Quantidade'},
+      animation: { duration: 1000, easing: 'out', startup: true }
+    }}
     />
 
     </div>
