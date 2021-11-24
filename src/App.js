@@ -1,97 +1,22 @@
-import React , { useState } from 'react'
+import React  from 'react'
 import './App.css';
-import Chart from 'react-google-charts'
+import { Cards } from './components/Cards/Cards';
+import { Grafics } from './components/Grafics/Grafics';
+import { Header } from './components/Header/Header';
+import { Tables } from './components/Tables/Tables';
+
+
 
 function App() {
 
-  const TITULO = "Quantidade de cadastros primeiro semestre"
-
-  const [ dados, setDados ] = useState([
-    ['Mes', 'Quantidade'],
-    ['Janeiro', 20],
-    ['Fevereiro', 30],
-    ['Março', 40],
-    ['Abril', 50],
-    ['Maio', 60],
-    ['Junho', 70]
-  ])
 
   return (
 
-    <div>
-    <h1>Dashboard</h1>
-    <Chart
-    width={'400px'}
-    height={'300px'}
-    chartType={'PieChart'}
-    data={dados}
-    options={{
-      title: TITULO
-    }}
-    />
-
-<Chart
-    width={'400px'}
-    height={'300px'}
-    chartType={'PieChart'}
-    data={dados}
-    options={{
-      title: TITULO,
-      is3D: true
-    }}
-    />
-
-<Chart
-    width={'400px'}
-    height={'300px'}
-    chartType={'PieChart'}
-    data={dados}
-    options={{
-      title: TITULO,
-      pieHole: 0.3
-    }}
-    />
-
-    <Chart 
-    width={'400px'}
-    height={'300px'}
-    chartType={'BarChart'}
-    data={dados}
-    options={{
-      title: TITULO,
-      chartArea: { width: '50%'},
-      hAxis: { title: 'Quantidade'},
-      vAxis: { title: 'Mês' },
-      animation: { duration: 1000, easing: 'out', startup: true }
-    }}
-    />
-
-    <Chart 
-    width={'400px'}
-    height={'300px'}
-    chartType={'LineChart'}
-    data={dados}
-    options={{
-      title: TITULO,
-      hAxis: { title: 'Mês'},
-      vAxis: { title: 'Quantidade'},
-      animation: { duration: 1000, easing: 'out', startup: true }
-    }}
-    />
-
-    <Chart 
-    width={'400px'}
-    height={'300px'}
-    chartType={'AreaChart'}
-    data={dados}
-    options={{
-      title: TITULO,
-      hAxis: { title: 'Mês'},
-      vAxis: { title: 'Quantidade'},
-      animation: { duration: 1000, easing: 'out', startup: true }
-    }}
-    />
-
+    <div className="App">
+    <Header />
+    <Cards />
+    <Grafics />
+    <Tables />
     </div>
   );
 }
