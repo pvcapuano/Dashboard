@@ -50,6 +50,7 @@ export const Grafics = () => {
       title: TITULO,
       is3D: true
     }}
+    
     />
 
     <Chart className="card"

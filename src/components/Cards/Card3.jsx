@@ -10,7 +10,7 @@ export const Card3 = () => {
 
     return (
         <Card
-    sx={{ height: '100%' }}>
+        sx={{marginBottom: '20px'}}>
     <CardContent>
       <Grid
         container

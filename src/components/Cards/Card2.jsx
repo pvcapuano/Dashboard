@@ -5,7 +5,7 @@ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 export const Card2 = () => {
 
     return (
-        <Card>
+        <Card sx={{marginBottom: '20px'}}>
         <CardContent>
           <Grid
             container

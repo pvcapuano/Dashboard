@@ -6,3 +6,20 @@
   padding: 30px;
   margin: 20px 0;
 }
+
+@media (max-width: 800px) {
+  .grafics {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .grafics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

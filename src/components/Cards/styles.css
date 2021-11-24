@@ -4,3 +4,20 @@
   align-items: flex-start;
   margin-top: 40px;
 }
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: row;
+    flex-grow: initial;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 430px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}

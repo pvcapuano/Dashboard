@@ -5,7 +5,7 @@ export const Card1 = () => {
 
 
     return (
-        <Card>
+        <Card sx={{marginBottom: '20px'}}>
         <CardContent>
           <Grid
             container
