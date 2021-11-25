@@ -1,6 +1,18 @@
+## Resumo
+
+Dashboard para apresentar cards, gráficos dinâmicos e listas com informações para serem analisadas. Aplicação web desenvolvida em ReactJs.
+
+## Rodando o projeto:
+
+* git clone https://github.com/pvcapuano/Dashboard.git
+* cd dashboard
+* npm i (instala todas as dependências)
+* npm start (inicia o projeto)
+
 ## Projeto
 
 ![Captura de Tela 2021-11-24 às 20 35 29](https://user-images.githubusercontent.com/10540844/143327546-8b736752-869b-44b7-9679-88d9dc7bd2fd.png)
+<sub>Visão geral do projeto</sub>
 
 ## Projeto em produção:
 
