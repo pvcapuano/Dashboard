@@ -31,7 +31,7 @@ Dashboard para apresentar cards, gráficos dinâmicos e listas com informações
 ## Objetivo:
 Estudar sobre gráficos e um pouco mais sobre o Material UI.
 
-## Resumo:
+## Atividades realizadas:
 
 * Foi usado o Google Charts para os gráficos. 
 * Coloquei um setInterval() dentro do useEffect para ele mudar os números dos gráficos a cada 5 segundos.
